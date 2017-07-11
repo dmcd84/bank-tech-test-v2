@@ -1,7 +1,7 @@
 # bank-tech-test-v2
 Week 10 at Makers Academy, tech test week.
 
-Second version at a tech test - trying to be more of a OOD purist.
+Second version at a tech test - trying to be more of an OOD purist.
 
 ## Specification
 
@@ -54,7 +54,8 @@ Before use you will need to open terminal (or equivalent), clone this repo and u
 ```
 git clone git@github.com:dmcd84/bank-tech-test-v2.git
 cd bank-tech-test-v2
-bundle install```
+bundle install
+```
 
 Then in irb or another REPL, after navigating to the project folder above(bank-tech-test):
 ```
