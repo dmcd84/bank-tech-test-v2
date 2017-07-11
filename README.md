@@ -50,3 +50,21 @@ I want to see a statement of how broke I actually am
 ```
 
 ### Usage
+Before use you will need to open terminal (or equivalent), clone this repo and use the commands below to use the 'bank account'.
+```
+git clone git@github.com:dmcd84/bank-tech-test-v2.git
+cd bank-tech-test-v2
+bundle install```
+
+Then in irb or another REPL, after navigating to the project folder above(bank-tech-test):
+```
+require './lib/transactions.rb'
+bank = Transactions.new
+```
+This will create a 'bank' which can make use of the following commands:
+
+```
+bank.deposit(amount)
+bank.withdraw(amount)
+bank.print_statement
+```
