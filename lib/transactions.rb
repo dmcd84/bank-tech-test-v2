@@ -1,5 +1,5 @@
 require_relative 'statement'
-# Transactions can allow movement of money
+# Understands the movement of money
 class Transactions
   def initialize
     @statement = Statement.new
