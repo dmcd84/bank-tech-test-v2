@@ -1,6 +1,5 @@
-require 'date'
+# Transactions can allow movement of money
 class Transactions
-
   def initialize
     @transaction_log = []
   end
@@ -15,5 +14,9 @@ class Transactions
 
   def transaction_count
     @transaction_log.count
+  end
+
+  def print_statement
+    @transaction_log
   end
 end
