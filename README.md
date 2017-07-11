@@ -1,7 +1,7 @@
 # bank-tech-test-v2
 Week 10 at Makers Academy, tech test week.
 
-Second version at a tech test - trying to be more of a OOP purist.
+Second version at a tech test - trying to be more of a OOD purist.
 
 ## Specification
 
