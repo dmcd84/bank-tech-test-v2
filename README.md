@@ -26,3 +26,25 @@ date || credit || debit || balance
 13/01/2012 || 2000.00 || || 3000.00
 10/01/2012 || 1000.00 || || 1000.00
 ```
+
+### Approach
+
+Trying to keep this code more 'pure' in terms of OOD, transactions have no knowledge of balance. Instead, balance is tracked when displaying a statement. This means that each object has a reduced knowledge and dependency on the other.
+
+### User Stories
+
+```
+As a User
+So I can afford to buy new tech
+I would like to deposit funds
+
+As a User
+So I can buy tech I don't really need
+I would like to make a withdrawal
+
+As a User
+So I can justify my next purchase
+I want to see a statement of how broke I actually am
+```
+
+### Usage
