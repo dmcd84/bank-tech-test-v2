@@ -7,7 +7,7 @@ describe Statement do
     end
     it 'prints statement topline' do
       transactions = Transactions.new
-      expect { transactions.print_statement }.to output('date || credit || debit || balance').to_stdout
+      expect { transactions.print_statement }.to output(/date || credit || debit || balance/).to_stdout
     end
     it 'prints a full statement' do
       transactions = Transactions.new
