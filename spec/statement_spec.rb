@@ -7,14 +7,14 @@ describe Statement do
     end
     it 'prints statement topline' do
       transactions = Transactions.new
-      expect { subject.display(transactions.print_statement) }.to output('date || credit || debit || balance').to_stdout
+      expect { transactions.print_statement }.to output('date || credit || debit || balance').to_stdout
     end
     it 'prints a full statement' do
       transactions = Transactions.new
       transactions.deposit(100)
       transactions.withdrawal(70)
       expect(transactions.transaction_count).to eq 2
-      expect { subject.display(transactions.print_statement) }.to output(/30/).to_stdout
+      expect { transactions.print_statement }.to output(/30/).to_stdout
     end
   end
 end

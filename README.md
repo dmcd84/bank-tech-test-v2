@@ -31,6 +31,8 @@ date || credit || debit || balance
 
 Trying to keep this code more 'pure' in terms of OOD, transactions have no knowledge of balance. Instead, balance is tracked when displaying a statement. This means that each object has a reduced knowledge and dependency on the other.
 
+This was significantly more intellectually challenging than just building a thing that just worked...like version 1!!
+
 ### User Stories
 
 ```

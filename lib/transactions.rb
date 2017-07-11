@@ -1,6 +1,7 @@
 # Transactions can allow movement of money
 class Transactions
   def initialize
+    @statement = Statement.new
     @transaction_log = []
   end
 
@@ -17,6 +18,6 @@ class Transactions
   end
 
   def print_statement
-    @transaction_log
+    @statement.display(@transaction_log)
   end
 end
