@@ -5,11 +5,11 @@ class Transactions
   end
 
   def deposit(amount)
-    @transaction_log << [Time.now, amount]
+    @transaction_log << ['credit', Time.now, amount]
   end
 
   def withdrawal(amount)
-    @transaction_log << [Time.now, amount]
+    @transaction_log << ['debit', Time.now, amount]
   end
 
   def transaction_count
