@@ -55,6 +55,7 @@ Before use you will need to open terminal (or equivalent), clone this repo and u
 git clone git@github.com:dmcd84/bank-tech-test-v2.git
 cd bank-tech-test-v2
 bundle install
+rspec
 ```
 
 Then in irb or another REPL, after navigating to the project folder above(bank-tech-test):

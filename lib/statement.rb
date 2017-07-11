@@ -1,4 +1,4 @@
-# Has responsibiilty to print a statement
+# Understand how to print a statement
 class Statement
   def initialize
     @opening_balance = 0
